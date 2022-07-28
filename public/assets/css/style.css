@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa&family=Open+Sans:wght@300;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://wallpaperaccess.com/full/1758094.jpg");
+    background-size: auto 150vh;
+    background-position-x: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 15%;
+    margin-top: 10px;
+}
+
+.row1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.playerChoice {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerChoice input {
+    width: 70%;
+    height: 100px;
+    margin: 20px 40px;
+    border-radius: 100px;
+    font-size: 200%;
+    cursor: pointer;
+}
+
+.playerChoice input:hover {
+    background-color: rgb(169, 193, 214);
+}
+
+.row2 {
+    width: 100%;
+    height: 20vh;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.playerValueBox {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerValue {
+    width: 75%;
+    height: 100%;
+    background-color: #00bbff;
+    border: 2px solid black;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#paragraphPlayerValue {
+    font-size: 600%;
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+    margin: 0 0;
+}
+
+.vs {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 400%;
+    font-family: 'Changa', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.iaChoiceBox {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.iaChoice {
+    width: 75%;
+    height: 100%;
+    background-color: #ff0000;
+    border: 2px solid black;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#paragraphIaChoice {
+    font-size: 600%;
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+    margin: 0 0;
+}
+
+#paragraphResult {
+    font-size: 500%;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    font-family: 'Changa', sans-serif;
+    margin: 0px 0;
+}
+
+.row4 {
+    height: auto;
+    color: white;
+    font-size: 400%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#playerScore {
+    color: #00bbff;
+    font-family: 'Changa', sans-serif;
+    height: auto;
+}
+
+#iaScore{
+    color: #ff0000;
+    font-family: 'Changa', sans-serif;
+}
+
+
+@media screen and (max-width: 900px) {
+    img {
+        width: 50%;
+    }
+
+    .playerChoice {
+        margin: 0px 0px;
+    }
+
+    .playerChoice input {
+        width: 100%;
+        margin: 15px 10px;
+    }
+
+    .row2 {
+        height: 60vh;
+        flex-direction: column;
+    }
+
+    .playerValueBox {
+        width: 100%;
+    }
+
+    .playerValue {
+        height: 75%;
+    }
+
+    #paragraphPlayerValue {
+        font-size: 400%;
+    }
+
+    .vs {
+        width: 100%;
+        height: 20px;
+    }
+
+    .iaChoiceBox {
+        width: 100%;
+    }
+
+    .iaChoice {
+        height: 75%;
+    }
+
+    #paragraphIaChoice {
+        font-size: 400%;
+    }
+
+    #paragraphResult {
+        font-size: 350%;
+        margin: -20px 0;
+    }
+}
+
